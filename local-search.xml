@@ -103,4 +103,39 @@
   
   
   
+  
+  
+  <entry>
+    <title>关于</title>
+    <link href="/"/>
+    <url>/</url>
+    
+    <content type="html"><![CDATA[<h2 id="关于这个网站">关于这个网站</h2><p>自从去年春节前后建了第一版的网站以来一直都是消极更新，这一年来其实也啥都没干，最后一次更新还是在另一个校区上课的时候更新的。。。</p><p>所以，时隔一年，我准备再建一个新版的博客，希望不要重蹈覆辙</p><h2 id="我的打算">我的打算</h2><p>把这个网站建成之后尽量多发教程，希望给人带来点实际性的帮助吧</p>]]></content>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/"/>
+    <url>/</url>
+    
+    <content type="html"><![CDATA[var now = new Date();     function createtime() {         var grt= new Date("02/05/2024 14:00:00");//在此处修改你的建站时间        now.setTime(now.getTime()+250);         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);         if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}         document.getElementById("timeDate").innerHTML = "已运行 "+dnum+" 天 ";         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";     } setInterval("createtime()",250);]]></content>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>友情链接</title>
+    <link href="/"/>
+    <url>/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+  </entry>
+  
+  
+  
 </search>
